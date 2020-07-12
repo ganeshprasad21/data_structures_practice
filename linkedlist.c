@@ -16,7 +16,7 @@ int main() {
     start = (node *)malloc(sizeof(node));
     printf("enter the elements\n\n");
     create(start); 
-    printf("wait the fuck\n\n");
+    printf("wait\n\n");
     displayit(start);
     recursivedisp(start);
     printf("recursive-reverse\n\n");
@@ -65,3 +65,5 @@ void recursivereverse(node * first)
                 printf("%d",first->data);
     }
 }
+
+
