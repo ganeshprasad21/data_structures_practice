@@ -1,0 +1,120 @@
+oops - (ie- pad)
+-> encapsulation - properties and operations together
+-> datat hiding - 
+-> abstraction
+-> polymorphism
+-> inheritence
+
+
+class is blueprint of object
+object is a memory block inside which lot of variables ( class is a non primitive data type) - > var is called obj (obj takes up memory)
+class will hel us have encapsulation
+
+
+
+.cpp file we code , preprocessor tool reads and resolves the include statements, this will create .i file, taken by compiler .obj
+
+.cpp -> .i -> .obj 
+obj links with library , .exe/ .out
+
+constant, variable, keyword
+primary and secondary constants
+primary - IRC (int real/float char)\ sec - arr str ptr union str enum class
+
+64kb - 1 sec stores instruction, another stores dat , keywords cant be used
+48 keywords
+
+int char float double void
+int 2 bytes
+char 1 b
+float 4 b
+double 8
+void 0
+
+cout is object , << insertion 
+it will insert a string on output straam
+
+refrence int &refvar = varToBeReferenced;
+
+same address different name
+
+defn declaration call
+
+declaration - > prototype
+locally globally
+
+actual and formal arg , actual whats is the calaing , formal what is in declaration
+when formal arg are ordinary - > call by value
+when formal are pointrs -> call by ptrs/address, ref call by re
+
+when function is small to avoid overhead we writ inline fns
+here compiler replaces the single line of code
+
+inline keyword is used in definition
+
+function overloading - operator overloading virt function
+fn overloading operator overloading compile time polymorphism virt fn runtime polymorp
+
+structure in c++
+collection of dissimilar elements
+group variables
+used for creation of data t
+
+acess specifier private public protected
+
+by default class pri and struct pub
+
+if u want to define outside then give membership label className::function(args){};
+
+operator overloading
+
+static var
+default to 0
+throughout program , wontbe created and destroyed as function starts and stops
+static member variable
+its a class member variable, its like the class member var
+if there is no static it is instance member variable
+its defined in class and declared with membership var outside 
+static functions
+to set private sattic variables without an instance, this canacess only static variables !
+
+constructor, member function same as name of class no return type instance func not static ever
+copy constructor Constructor(const& Constructor constructorObjToBeCoped)
+
+destructor ~Constructor(){} free up pointers while going out of scope
+
+operator
+Classname operator <operator which is in cpp> ( Class ob ) {
+
+}
+
+operator overloading
+++ use int inside the parameter for post if u want both
+unary takes no args
+
+friend function in cpp
+can be frnds with both
+
+inheritance mode
+public -> retains mode
+private makes public private, and protected private
+protected makes public proted and protected too
+
+
+assossiation of classes 
+aggrigation
+composition
+inheritence - is a
+
+method overriding and hiding, overriding will take child class function (same parameter), method iding will create error it can be done by same name but different parameters
+
+virtual fn
+base ptr can point child but child cant point base
+now when we create base pointer and then point to an overridden class it should be pointing to base function unless we mark the base as virtual, then we will actually choose the correct function during runtime
+if there is virt keyword then there will be a static variable * called _vptr that will be available on all instances and each objects will have vtavble that is list of all func pointer
+
+virtual function 
+do nothing function is pure virtual function put =0
+
+stl\
+containers algo iterators

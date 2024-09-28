@@ -1,0 +1,19 @@
+dsa 
+dsa and algo
+ds - how data is stored so that its used efficiently, algorithms act on it
+algo depends on the ds used
+
+linear and non linear datastructurez
+l - ar,ll, stack,queue,deque
+nl - bst,avl,btree b+, graph
+
+algorithm step by step representation of logic to solve the problem
+
+>>>>>
+to store 1000 datas we use arr, else we need 1000 of variables
+
+arr - multiple vals that are related
+array and dynamic array
+
+single linked list
+
